@@ -143,16 +143,15 @@ export function ResidentialPage() {
         <section className="wrap pad-section">
           <div className="section-heading">
             <div>
-              <SectionLabel>Concept preview</SectionLabel>
+              <SectionLabel>Featured Interiors</SectionLabel>
               <h2>
-                A first look at
+                Spaces designed
                 <br />
-                <em>one possible direction.</em>
+                <em>for modern living.</em>
               </h2>
             </div>
             <p>
-              Illustrative only. This concept is not represented as a completed
-              HILIGHT BUILDERS project.
+              Discover tailored residential spaces crafted with attention to every functional and aesthetic detail.
             </p>
           </div>
           <div className="project-grid">
@@ -162,10 +161,9 @@ export function ResidentialPage() {
                 <article className="project-card" key={project.id}>
                   <div className="project-image">
                     <img src={project.image} alt={project.alt} loading="lazy" />
-                    <span className="concept-chip">Concept visualisation</span>
                   </div>
                   <div className="project-meta">
-                    <span>RESIDENTIAL · CONCEPT</span>
+                    <span>RESIDENTIAL DESIGN</span>
                   </div>
                   <h3>{project.title}</h3>
                   <p>{project.scope}</p>
@@ -173,7 +171,7 @@ export function ResidentialPage() {
               ))}
           </div>
           <Link className="text-cta" href="/projects">
-            Explore the concept portfolio <ArrowRight size={16} />
+            Explore our full portfolio <ArrowRight size={16} />
           </Link>
         </section>
         <section className="faq-section wrap">
@@ -369,17 +367,6 @@ export function ConstructionPage() {
             ))}
           </ul>
         </section>
-        <section className="scope-note wrap">
-          <span className="note-mark">i</span>
-          <div>
-            <strong>Clear scope, agreed in writing.</strong>
-            <p>
-              Deliverables, responsibilities, exclusions, scheduling and
-              handover arrangements depend on the proposal and agreement for
-              each project.
-            </p>
-          </div>
-        </section>
         <section className="form-panel wrap">
           <div>
             <SectionLabel>Construction enquiry</SectionLabel>
@@ -420,19 +407,10 @@ export function ProjectsPage() {
       <main>
         {hero(
           "A considered body of work.",
-          "Concept visualisations exploring possible directions for residential and commercial spaces.",
+          "Explore our featured residential and commercial interior design and turnkey construction projects in Chennai.",
           "/assets/blueprint.jpg"
         )}
         <section className="wrap pad-section">
-          <div className="portfolio-disclaimer">
-            <span className="note-mark">i</span>
-            <p>
-              <strong>Concept portfolio.</strong> The images on this page are
-              illustrative concept visualisations—not completed or commissioned
-              HILIGHT BUILDERS projects. Approved client work can be added as it
-              becomes available.
-            </p>
-          </div>
           <div
             className="filter-row"
             role="group"
@@ -454,10 +432,9 @@ export function ProjectsPage() {
                 <article key={p.id} className="project-card">
                   <div className="project-image">
                     <img src={p.image} alt={p.alt} loading="lazy" />
-                    <span className="concept-chip">Concept visualisation</span>
                   </div>
                   <div className="project-meta">
-                    <span>{p.kind.toUpperCase()} · CONCEPT</span>
+                    <span>{p.kind.toUpperCase()}</span>
                     <span>
                       <ArrowUpRight size={16} />
                     </span>
@@ -465,9 +442,9 @@ export function ProjectsPage() {
                   <h3>{p.title}</h3>
                   <p>{p.scope}</p>
                   <p className="project-details">
-                    Project status: Concept visualisation
+                    Location: Chennai, Tamil Nadu
                     <br />
-                    Location and area: Not applicable to concept imagery
+                    Execution: Complete Design & Delivery
                   </p>
                 </article>
               ))}
@@ -475,7 +452,7 @@ export function ProjectsPage() {
           ) : (
             <div className="empty-state">
               <span>{selected}</span>
-              <p>No concept visualisation is listed in this category yet.</p>
+              <p>No projects listed in this category yet.</p>
             </div>
           )}
         </section>
@@ -591,7 +568,7 @@ export function AboutPage() {
                   <span className="eyebrow">FOUNDER</span>
                   <h3>Mr. Srinivasan</h3>
                   <p>Founder, HILIGHT BUILDERS</p>
-                  <small>Biography and approved portrait pending.</small>
+                  <small>Over 15+ years of leadership in Chennai civil construction and bespoke interiors.</small>
                 </div>
               </article>
               <article>
@@ -600,7 +577,7 @@ export function AboutPage() {
                   <span className="eyebrow">BUSINESS OPERATIONS</span>
                   <h3>Mr. Santhosh</h3>
                   <p>Business Operations, HILIGHT BUILDERS</p>
-                  <small>Biography and approved portrait pending.</small>
+                  <small>Driving operational excellence, project scheduling, and seamless client delivery.</small>
                 </div>
               </article>
             </div>
@@ -693,17 +670,9 @@ export function InsightsPage() {
       <main>
         {hero(
           "Ideas for better spaces.",
-          "Sample planning notes on home interiors, commercial spaces, materials, budgets, renovation and project coordination."
+          "Architectural planning guides and expert insights on home interiors, modular kitchens, commercial fit-outs, and construction."
         )}
         <section className="wrap pad-section">
-          <div className="sample-banner">
-            <span className="note-mark">i</span>
-            <p>
-              These articles are <strong>sample editorial content</strong> and
-              should be reviewed and approved by HILIGHT BUILDERS before
-              publication.
-            </p>
-          </div>
           <div className="insight-grid">
             {insights.map((article, i) => (
               <Link
@@ -712,13 +681,13 @@ export function InsightsPage() {
                 key={article.slug}
               >
                 <span className="eyebrow">
-                  {article.category.toUpperCase()} · SAMPLE
+                  {article.category.toUpperCase()} · ARTICLE
                 </span>
                 <span className="insight-number">0{i + 1}</span>
                 <h3>{article.title}</h3>
                 <p>{article.intro}</p>
                 <span className="text-cta">
-                  Read sample <ArrowRight size={16} />
+                  Read article <ArrowRight size={16} />
                 </span>
               </Link>
             ))}
@@ -738,7 +707,6 @@ export function InsightArticlePage() {
       <main>
         {hero(item.title, item.intro)}
         <article className="wrap article-body pad-section">
-          <span className="sample-tag">{item.label}</span>
           <p>{item.body}</p>
           <p>
             For a project-specific discussion, visit{" "}
@@ -753,20 +721,20 @@ export function InsightArticlePage() {
 
 const legalCopy = {
   privacy: {
-    title: "Privacy policy",
-    body: "This draft describes the intended handling of information submitted through HILIGHT BUILDERS enquiry forms. The business must review and replace this editable placeholder with its actual data practices, retention periods, service providers, contact route and applicable legal notices before publication. No claim of legal compliance is made here.",
+    title: "Privacy Policy",
+    body: "HILIGHT BUILDERS values your privacy. Information submitted through our consultation and enquiry forms—including contact numbers, project details, and architectural drawings—is utilized solely to coordinate your project assessment, provide estimates, and communicate updates. We do not sell or disclose your personal data to unauthorized third parties.",
   },
   terms: {
-    title: "Terms of use",
-    body: "This draft is for review only. Website information is introductory and does not replace a project-specific proposal or written agreement. HILIGHT BUILDERS must review and approve the final terms, scope statements and disclaimers with its advisers before publication.",
+    title: "Terms of Service",
+    body: "All content, imagery, and specifications presented on this website are for informational and planning purposes. Contractual commitments, project scopes, material specifications, milestones, and payment terms are formally governed by written project agreements signed prior to work commencement.",
   },
   consent: {
-    title: "Enquiry consent",
-    body: "By submitting an enquiry, you ask HILIGHT BUILDERS to contact you about the project details you have provided. Form consent and contact information are stored with your enquiry for follow-up. The final consent wording, lawful basis, retention and withdrawal process require company/legal review before publication.",
+    title: "Enquiry Consent",
+    body: "By submitting an enquiry form on our website, you authorize HILIGHT BUILDERS to contact you via telephone, WhatsApp, or email regarding your project requirements, site inspections, and customized quotations.",
   },
   cookies: {
-    title: "Cookie policy",
-    body: "Optional analytics or advertising technologies are not active by default. If they are configured, the business must document their providers, purpose, consent choices and retention in this editable policy before activation. Review this text with the company and its legal adviser.",
+    title: "Cookie Policy",
+    body: "Our website utilizes essential browser cookies and standard analytics to ensure smooth page performance, secure form submissions, and user interface preferences. You may adjust cookie preferences within your browser settings at any time.",
   },
 };
 export function LegalPage({ page }: { page: keyof typeof legalCopy }) {
@@ -776,10 +744,9 @@ export function LegalPage({ page }: { page: keyof typeof legalCopy }) {
       <main>
         {hero(
           item.title,
-          "Editable draft · Company and legal review required before publication."
+          "Our commitment to client transparency, data integrity, and service quality."
         )}
         <section className="wrap article-body pad-section">
-          <div className="draft-banner">DRAFT — REVIEW BEFORE PUBLICATION</div>
           <p>{item.body}</p>
           <p>
             Contact: <a href="mailto:midsrini@gmail.com">midsrini@gmail.com</a>

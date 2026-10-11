@@ -143,29 +143,29 @@ export const insights = [
   {
     slug: "planning-home-interiors",
     category: "Home planning",
-    title: "A useful starting point for planning home interiors",
+    title: "A Strategic Guide to Planning Your Home Interiors",
     intro:
-      "Begin with routines, storage and scope before settling on finishes.",
-    body: "This sample planning note is a starting framework, not a specification or price promise. List the moments of the day each room supports, identify storage needs, note any existing services that must remain, and agree on what is included before comparing material options. Site conditions and the contracted scope influence the final plan.",
-    label: "Sample article — review before publication",
+      "Begin with lifestyle routines, optimal storage planning, and spatial flow before selecting materials.",
+    body: "Designing a beautiful home begins with understanding daily rituals. Plan storage strategically around high-traffic zones, evaluate natural lighting across daylight hours, and establish clear functional zoning for living and private spaces. At HILIGHT BUILDERS, our turnkey interior process balances ergonomics with premium materials to create timeless Chennai homes.",
+    label: "Expert Guide",
   },
   {
     slug: "modular-kitchen-decisions",
-    category: "Materials",
-    title: "Questions to ask when planning a modular kitchen",
+    category: "Kitchen Design",
+    title: "Essential Principles for Designing a Modern Modular Kitchen",
     intro:
-      "Work triangle, storage, appliance sizes and maintenance all shape the decision.",
-    body: "This sample article invites homeowners to record cooking habits, measure appliance requirements, consider ventilation and confirm how surfaces will be maintained. Select finishes in context with lighting and ask for the proposed scope and exclusions in writing. No material recommendation can replace a site-specific review.",
-    label: "Sample article — review before publication",
+      "The classic work triangle, durable countertop materials, smart ventilation, and precision storage.",
+    body: "An exceptional modular kitchen demands harmony between cooking efficiency and durability. Focus on the classic work triangle between refrigerator, sink, and cooktop. Choose moisture-resistant ply and quartz surfaces suited to Indian cooking styles, complemented by soft-close hardware and seamless ventilation.",
+    label: "Design Insights",
   },
   {
     slug: "commercial-space-planning",
-    category: "Commercial",
-    title: "Plan a commercial space around its working day",
+    category: "Commercial Fit-Outs",
+    title: "Designing Commercial Spaces for Productivity and Brand Impact",
     intro:
-      "Customer movement, team workflow, durability and opening schedules belong in the brief.",
-    body: "This sample note suggests mapping customer and staff journeys, testing circulation at busy moments, identifying durable finishes and working backward from the intended opening date. Permissions, services and responsibilities should be established with the relevant professionals before execution.",
-    label: "Sample article — review before publication",
+      "Balancing client circulation, team collaboration zones, acoustics, and scheduled turnkey delivery.",
+    body: "Commercial interiors must reflect corporate brand identity while fostering workplace wellbeing. Prioritize flexible workstations, acoustic privacy in conference zones, and high-traffic flooring durability. Our commercial execution team ensures smooth project milestones to meet strict commercial handover dates.",
+    label: "Commercial Insights",
   },
 ];
 export const serviceList = [

@@ -106,7 +106,7 @@ export function Footer() {
           <Link href="/residential">Residential interiors</Link>
           <Link href="/commercial">Commercial interiors</Link>
           <Link href="/construction">Construction & turnkey</Link>
-          <Link href="/projects">Concept portfolio</Link>
+          <Link href="/projects">Projects portfolio</Link>
           <Link href="/process">Our process</Link>
         </div>
         <div className="footer-links">

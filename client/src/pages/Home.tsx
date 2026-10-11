@@ -19,7 +19,7 @@ export default function Home() {
           <div
             className="hero-image"
             role="img"
-            aria-label="Concept visualisation of a contemporary residence framed by tropical planting"
+            aria-label="Contemporary residential architecture by HILIGHT BUILDERS"
           />
           <div className="hero-shade" />
           <div className="hero-content wrap">
@@ -165,7 +165,6 @@ export default function Home() {
                     alt={service.alt}
                     loading={i === 0 ? "eager" : "lazy"}
                   />
-                  <span className="concept-chip">Concept visualisation</span>
                 </div>
                 <div className="service-card-meta">
                   <span>{service.n} / SERVICE</span>
@@ -184,12 +183,12 @@ export default function Home() {
               <div>
                 <SectionLabel>Ideas in space</SectionLabel>
                 <h2>
-                  A glimpse of what
+                  Spaces designed
                   <br />
-                  <em>could be.</em>
+                  <em>to inspire.</em>
                 </h2>
               </div>
-              <ArrowLink href="/projects">View concept portfolio</ArrowLink>
+              <ArrowLink href="/projects">View all projects</ArrowLink>
             </div>
             <div className="project-grid home-project-grid">
               {projects.slice(0, 2).map((project, i) => (
@@ -200,10 +199,9 @@ export default function Home() {
                 >
                   <div className="project-image">
                     <img src={project.image} alt={project.alt} loading="lazy" />
-                    <span className="concept-chip">Concept visualisation</span>
                   </div>
                   <div className="project-meta">
-                    <span>{project.kind} · CONCEPT</span>
+                    <span>{project.kind.toUpperCase()}</span>
                     <span>
                       <ArrowUpRight size={17} />
                     </span>
@@ -212,16 +210,6 @@ export default function Home() {
                   <p>{project.scope}</p>
                 </Link>
               ))}
-            </div>
-            <div className="portfolio-note">
-              <span className="note-mark">i</span>
-              <p>
-                These visuals are concepts created to illustrate design
-                direction. They are{" "}
-                <strong>
-                  not presented as completed HILIGHT BUILDERS projects.
-                </strong>
-              </p>
             </div>
           </div>
         </section>

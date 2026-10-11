@@ -262,7 +262,7 @@ export function renderSeoShell(html: string, pathname: string, siteUrl = "") {
   const nav =
     path === "/admin"
       ? ""
-      : `<nav aria-label="HILIGHT BUILDERS pages"><a href="/residential">Residential interiors</a> · <a href="/commercial">Commercial interiors</a> · <a href="/construction">Construction &amp; turnkey</a> · <a href="/projects">Concept portfolio</a> · <a href="/process">Our process</a> · <a href="/contact">Contact</a></nav>`;
+      : `<nav aria-label="HILIGHT BUILDERS pages"><a href="/residential">Residential interiors</a> · <a href="/commercial">Commercial interiors</a> · <a href="/construction">Construction &amp; turnkey</a> · <a href="/projects">Our portfolio</a> · <a href="/process">Our process</a> · <a href="/contact">Contact</a></nav>`;
   const shareImagePath =
     "/assets/hero.jpg";
   const shareImage = absolute
