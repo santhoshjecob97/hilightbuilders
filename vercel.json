@@ -1,0 +1,15 @@
+{
+  "buildCommand": "pnpm run build:static",
+  "outputDirectory": "dist/public",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/platform/config.js",
+      "destination": "/api/platform/config.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

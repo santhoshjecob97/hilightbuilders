@@ -1,0 +1,31 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home" },
+    { "path": "/residential", "title": "Residential Interiors" },
+    { "path": "/commercial", "title": "Commercial Interiors" },
+    { "path": "/construction", "title": "Construction & Turnkey" },
+    { "path": "/projects", "title": "Project Portfolio" },
+    { "path": "/process", "title": "Our Process" },
+    { "path": "/about", "title": "About HILIGHT BUILDERS" },
+    { "path": "/contact", "title": "Contact" },
+    { "path": "/insights", "title": "Insights" },
+    {
+      "path": "/insights/planning-home-interiors",
+      "title": "Planning Home Interiors (Sample)"
+    },
+    {
+      "path": "/insights/modular-kitchen-decisions",
+      "title": "Modular Kitchen Decisions (Sample)"
+    },
+    {
+      "path": "/insights/commercial-space-planning",
+      "title": "Commercial Space Planning (Sample)"
+    },
+    { "path": "/insights/:slug", "title": "Insight Article" },
+    { "path": "/privacy", "title": "Privacy Policy (Draft)" },
+    { "path": "/terms", "title": "Terms of Use (Draft)" },
+    { "path": "/consent", "title": "Enquiry Consent (Draft)" },
+    { "path": "/cookies", "title": "Cookie Policy (Draft)" },
+    { "path": "/admin", "title": "Private Administration" }
+  ]
+}

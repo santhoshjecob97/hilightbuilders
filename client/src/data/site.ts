@@ -1,0 +1,115 @@
+export const services = [
+  {
+    n: "01",
+    title: "Residential interiors",
+    text: "Rooms that feel like yours—planned around daily rituals, storage and the way your home needs to work.",
+    href: "/residential",
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-2.webp",
+    alt: "Concept visualisation of a warm contemporary living space flowing toward a fitted kitchen",
+  },
+  {
+    n: "02",
+    title: "Commercial interiors",
+    text: "Customer-facing and working spaces organised around movement, brand, durability and opening schedules.",
+    href: "/commercial",
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-3.webp",
+    alt: "Concept visualisation of a contemporary commercial reception and office",
+  },
+  {
+    n: "03",
+    title: "Construction & turnkey",
+    text: "Defined coordination for construction, renovation and interior execution, shaped to the agreed scope.",
+    href: "/construction",
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-1.webp",
+    alt: "Concept visualisation of a contemporary residential exterior",
+  },
+];
+export const projects = [
+  {
+    id: "residence",
+    title: "Warmth, framed in light",
+    kind: "Residential",
+    tags: ["Residential", "Living Rooms", "Kitchens"],
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-2.webp",
+    alt: "Concept visualisation of a warm home interior with oak and stone finishes",
+    scope: "Living space · Kitchen · Material direction",
+  },
+  {
+    id: "workplace",
+    title: "A more considered workday",
+    kind: "Commercial",
+    tags: ["Commercial", "Offices"],
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-3.webp",
+    alt: "Concept visualisation of a contemporary office with a reception area",
+    scope: "Reception · Work zone · Meeting spaces",
+  },
+  {
+    id: "gathering",
+    title: "Room to gather",
+    kind: "Commercial",
+    tags: ["Commercial", "Retail"],
+    image: "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-4.webp",
+    alt: "Concept visualisation of a refined café with a timber counter",
+    scope: "Customer flow · Counter · Seating",
+  },
+];
+export const processSteps = [
+  "Initial enquiry",
+  "Requirement discovery",
+  "Site visit & measurements",
+  "Design brief",
+  "Concept & layout",
+  "Material selection",
+  "Detailed scope & estimate",
+  "Proposal & agreement",
+  "Procurement & scheduling",
+  "Execution & quality checks",
+  "Snag-list review",
+  "Handover",
+];
+export const insights = [
+  {
+    slug: "planning-home-interiors",
+    category: "Home planning",
+    title: "A useful starting point for planning home interiors",
+    intro:
+      "Begin with routines, storage and scope before settling on finishes.",
+    body: "This sample planning note is a starting framework, not a specification or price promise. List the moments of the day each room supports, identify storage needs, note any existing services that must remain, and agree on what is included before comparing material options. Site conditions and the contracted scope influence the final plan.",
+    label: "Sample article — review before publication",
+  },
+  {
+    slug: "modular-kitchen-decisions",
+    category: "Materials",
+    title: "Questions to ask when planning a modular kitchen",
+    intro:
+      "Work triangle, storage, appliance sizes and maintenance all shape the decision.",
+    body: "This sample article invites homeowners to record cooking habits, measure appliance requirements, consider ventilation and confirm how surfaces will be maintained. Select finishes in context with lighting and ask for the proposed scope and exclusions in writing. No material recommendation can replace a site-specific review.",
+    label: "Sample article — review before publication",
+  },
+  {
+    slug: "commercial-space-planning",
+    category: "Commercial",
+    title: "Plan a commercial space around its working day",
+    intro:
+      "Customer movement, team workflow, durability and opening schedules belong in the brief.",
+    body: "This sample note suggests mapping customer and staff journeys, testing circulation at busy moments, identifying durable finishes and working backward from the intended opening date. Permissions, services and responsibilities should be established with the relevant professionals before execution.",
+    label: "Sample article — review before publication",
+  },
+];
+export const serviceList = [
+  "Complete home interiors",
+  "Living rooms",
+  "Modular kitchens",
+  "Bedrooms & wardrobes",
+  "TV & pooja units",
+  "Storage solutions",
+  "Lighting & ceilings",
+  "Home offices",
+  "Residential construction",
+  "Renovation",
+  "Offices",
+  "Retail & hospitality",
+  "Clinics & wellness",
+  "Showrooms",
+  "Turnkey execution",
+];
