@@ -40,7 +40,7 @@ export function ResidentialPage() {
         {hero(
           "A home, thoughtfully made.",
           "Home interiors shaped around the way you live—with considered materials, clear scope and coordinated execution.",
-          "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-2.webp"
+          "/assets/living-room.jpg"
         )}
         <section className="wrap pad-section split-content">
           <div>
@@ -234,7 +234,7 @@ export function CommercialPage() {
         {hero(
           "Workplaces with purpose.",
           "Commercial interiors planned around workflow, brand identity, customer experience, space utilisation, durability, budget and the intended opening schedule.",
-          "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-3.webp"
+          "/assets/office.jpg"
         )}
         <section className="wrap pad-section split-content">
           <div>
@@ -331,7 +331,8 @@ export function ConstructionPage() {
       <main>
         {hero(
           "From scope to handover.",
-          "Construction coordination, renovation and interior execution, with responsibilities defined to match the agreed scope."
+          "Construction coordination, renovation and interior execution, with responsibilities defined to match the agreed scope.",
+          "/assets/construction.jpg"
         )}
         <section className="wrap pad-section split-content">
           <div>
@@ -419,7 +420,8 @@ export function ProjectsPage() {
       <main>
         {hero(
           "A considered body of work.",
-          "Concept visualisations exploring possible directions for residential and commercial spaces."
+          "Concept visualisations exploring possible directions for residential and commercial spaces.",
+          "/assets/blueprint.jpg"
         )}
         <section className="wrap pad-section">
           <div className="portfolio-disclaimer">
@@ -488,7 +490,8 @@ export function ProcessPage() {
       <main>
         {hero(
           "Clarity at every stage.",
-          "A twelve-step journey helps make decisions visible, from first enquiry through handover. Exact stages depend on the contracted scope."
+          "A twelve-step journey helps make decisions visible, from first enquiry through handover. Exact stages depend on the contracted scope.",
+          "/assets/renovation.jpg"
         )}
         <section className="wrap pad-section">
           <div className="section-heading">
@@ -561,7 +564,8 @@ export function AboutPage() {
       <main>
         {hero(
           "Building trust. Creating legacies.",
-          "A Chennai-based team coordinating residential and commercial interiors, construction, renovation and turnkey work."
+          "A Chennai-based team coordinating residential and commercial interiors, construction, renovation and turnkey work.",
+          "/assets/hero.jpg"
         )}
         <section className="wrap pad-section about-lead">
           <SectionLabel>Our approach</SectionLabel>
@@ -629,7 +633,8 @@ export function ContactPage() {
       <main>
         {hero(
           "Let’s talk about your space.",
-          "Share what you are planning—home interiors, a commercial fit-out, construction, renovation or something still taking shape."
+          "Share what you are planning—home interiors, a commercial fit-out, construction, renovation or something still taking shape.",
+          "/assets/studio.jpg"
         )}
         <section className="wrap contact-layout pad-section">
           <div className="contact-details">

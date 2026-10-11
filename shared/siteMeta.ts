@@ -264,7 +264,7 @@ export function renderSeoShell(html: string, pathname: string, siteUrl = "") {
       ? ""
       : `<nav aria-label="HILIGHT BUILDERS pages"><a href="/residential">Residential interiors</a> · <a href="/commercial">Commercial interiors</a> · <a href="/construction">Construction &amp; turnkey</a> · <a href="/projects">Concept portfolio</a> · <a href="/process">Our process</a> · <a href="/contact">Contact</a></nav>`;
   const shareImagePath =
-    "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-1.webp";
+    "/assets/hero.jpg";
   const shareImage = absolute
     ? new URL(shareImagePath, siteUrl).toString()
     : "";

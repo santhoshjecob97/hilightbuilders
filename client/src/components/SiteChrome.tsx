@@ -7,7 +7,7 @@ import {
   BUSINESS_WHATSAPP_DIGITS,
 } from "@/data/businessConfig";
 
-const logo = "/manus-storage/hilight-builders-logo_c7198f87.png";
+const logo = "/assets/hilight-builders-logo.png";
 const links = [
   ["Home", "/"],
   ["Residential", "/residential"],

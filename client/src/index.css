@@ -265,7 +265,7 @@ p {
 .hero-image {
   position: absolute;
   inset: 0;
-  background-image: url("/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-1.webp");
+  background-image: url("/assets/hero.jpg");
   background-size: cover;
   background-position: center 55%;
   transform: scale(1.015);

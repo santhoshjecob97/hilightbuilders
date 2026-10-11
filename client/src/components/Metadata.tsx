@@ -59,7 +59,7 @@ export function Metadata() {
         if (base.protocol !== "https:") return;
         const canonical = new URL(location, base).href;
         const image = new URL(
-          "/manus-storage/async-images/VfNLVDtwvDxRc3ivjGNnBX/image-1.webp",
+          "/assets/hero.jpg",
           base
         ).href;
         let link = document.head.querySelector<HTMLLinkElement>(
